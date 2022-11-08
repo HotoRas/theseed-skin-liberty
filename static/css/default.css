@@ -1,5 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-/* 메인 색깔 #4188f1 */
+/* 메인 색깔 #4188f1 -> ci-color */
 /* 테두리 색깔 #e1e8ed */
 
 /* 태그 수정 */
@@ -8,25 +8,39 @@
 
 }
 
-input:hover, button:hover, select:hover {
+input:hover,
+button:hover,
+select:hover {
     transition: 0.3s;
 }
 
 html {
     font-size: 15px;
-    font-smoothing: antialiased;
+    font-smooth: antialiased;
 }
 
 body {
     font-size: 0.95rem;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Nanum Gothic", "KoPubDotum M", "Noto Sans Korean", "Noto Sans", "Malgun Gothic", "맑은 고딕", sans-serif;
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, b {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
     font-family: "Nanum Gothic", "KoPubDotum B", "Noto Sans Korean", "Noto Sans", "Malgun Gothic", "맑은 고딕", sans-serif;
 
 }
@@ -59,7 +73,9 @@ h6 {
     font-size: 1.1rem;
 }
 
-ol, ul, p {
+ol,
+ul,
+p {
     margin: 0;
     padding: 0;
 }
@@ -100,15 +116,17 @@ ul {
 
 img {
     max-width: 100%;
-/*    height: auto;*/
+    /*    height: auto;*/
     margin: 0;
 }
 
-th[rowspan], td[rowspan] {
+th[rowspan],
+td[rowspan] {
     position: relative;
 }
 
-th[rowspan]:after, td[rowspan]:after {
+th[rowspan]:after,
+td[rowspan]:after {
     content: '';
     position: absolute;
     top: 0;
@@ -119,7 +137,8 @@ th[rowspan]:after, td[rowspan]:after {
 }
 
 input[type=search] {
-    -webkit-appearance: none; /* iOS 잡다한 css설정 제거 */
+    -webkit-appearance: none;
+    /* iOS 잡다한 css설정 제거 */
 }
 
 textarea {
@@ -133,7 +152,10 @@ hr {
 }
 
 
-html input[type=button]:hover, html input[type=submit]:hover, button:hover, #mw-editform-cancel:hover {
+html input[type=button]:hover,
+html input[type=submit]:hover,
+button:hover,
+#mw-editform-cancel:hover {
     background-color: #449d44;
 }
 
@@ -142,30 +164,37 @@ label {
     word-break: keep-all;
 }
 
-del, s, strike {
+del,
+s,
+strike {
     color: gray;
 }
+
 /* 태그 수정 End */
 
 /* 백그라운드 색 지정 */
 .Liberty {
     background-color: #f5f5f5;
 }
+
 /* 백그라운드 색 지정 End*/
 
 /* 컨텐츠 넓이 수정 및 가운대 정렬 */
-.Liberty .nav-wrapper .navbar, .Liberty .content-wrapper {
+.Liberty .nav-wrapper .navbar,
+.Liberty .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* 컨텐츠 넓이 수정 및 가운대 정렬 End */
 
 /* 네비 수정 */
 .Liberty .nav-wrapper {
     min-height: 2.8rem;
     background-color: #4188f1;
+    /*TODO Change color*/
     z-index: 1001;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .Liberty .nav-wrapper .navbar {
@@ -198,7 +227,8 @@ del, s, strike {
     line-height: 1.4rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover, .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
+.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover,
+.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
     background-color: #71a5f4;
     transition: 0.3s;
 }
@@ -240,8 +270,10 @@ del, s, strike {
     line-height: 22px;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .btn:hover, .Liberty .nav-wrapper .navbar .form-inline .btn:focus {
+.Liberty .nav-wrapper .navbar .form-inline .btn:hover,
+.Liberty .nav-wrapper .navbar .form-inline .btn:focus {
     background-color: #4188f1;
+    /*TODO Change color*/
     border-color: #5997f3;
     color: #fff;
     outline: 0;
@@ -303,7 +335,8 @@ del, s, strike {
     z-index: 1002;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before, .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
+.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before,
+.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
     bottom: 100%;
     border: solid transparent;
     content: " ";
@@ -325,6 +358,7 @@ del, s, strike {
     left: auto;
     right: 1.15rem;
 }
+
 /* 네비 수정 End */
 
 /* 오른쪽 메뉴 수정 */
@@ -386,6 +420,7 @@ del, s, strike {
     width: 15rem;
     display: block;
     border-bottom: 2px solid #4188f1;
+    /*TODO Change color*/
 }
 
 .Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content {
@@ -444,7 +479,8 @@ del, s, strike {
     top: 25.73rem;
     width: 15rem;
 }
-    /* 오른쪽 메뉴 수정 End */
+
+/* 오른쪽 메뉴 수정 End */
 
 /* 컨텐츠 수정 */
 .Liberty .content-wrapper {
@@ -493,6 +529,7 @@ del, s, strike {
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:focus,
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:active {
     background-color: #4188f1;
+    /*TODO Change color*/
     color: #fff;
     transition: 0.3s;
     outline: 0;
@@ -567,6 +604,7 @@ del, s, strike {
     background-color: #eb5e4c;
     display: none;
 }
+
 /* 컨텐츠 수정 End */
 
 /* 컨텐츠 하단 수정 */
@@ -603,12 +641,13 @@ del, s, strike {
     margin-right: 0.8rem;
     float: left;
 }
+
 /* 컨텐츠 하단 수정 End */
 
 /* 부트스트랩 커스텀 */
 .dropdown-menu {
     font-size: 0.95rem;
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     border-color: #e1e8ed;
 }
 
@@ -629,7 +668,7 @@ del, s, strike {
 .form-control:focus {
     border-color: #66afe9;
     outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     transition: 0.3s;
 }
 
@@ -642,15 +681,19 @@ del, s, strike {
     transition: 0.3s;
 }
 
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
     outline: 0;
 }
 
-.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
-    z-index: 3; /* 파폭, IE 테두리관련 버그 */
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+    z-index: 3;
+    /* 파폭, IE 테두리관련 버그 */
 }
 
-.close:focus, .close:hover {
+.close:focus,
+.close:hover {
     transition: 0.3s;
 }
 
@@ -658,4 +701,5 @@ caption {
     color: #373a3c;
     caption-side: top;
 }
+
 /* 부트스트랩 커스텀 End*/
